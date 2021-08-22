@@ -1,0 +1,27 @@
+{
+  "name": "pitstop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "pistop shop project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "pitstop",
+    "shop"
+  ],
+  "author": "Omar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "eslint": "^7.32.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "express-slow-down": "^1.4.0",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12",
+    "simple-node-logger": "^21.8.12"
+  }
+}
