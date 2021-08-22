@@ -1,3 +1,8 @@
+/****
+ * Author: Omar M.
+ * Project: Pitstop fictionary vehicle web shop
+ */
+
 const express = require("express");
 const bodyParser = require('body-parser');
 const app = express();
@@ -30,7 +35,7 @@ const getDataRateLimiter = rateLimit ({
 const getDataSlowDown = slowDown ({
   windowMs: 60 * 1000, // 1 minute window
   delayAfter: 500, // allow 500 requests to go at full-speed, then...
-  delayMs: 1000 // 6th request has a 1000ms delay, etc.
+  delayMs: 1000 // 501th request has a 1000ms delay, etc.
 });
 
 // Route: GET /api/:accountId/vehicles
