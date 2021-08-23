@@ -1,0 +1,81 @@
+2021-08-22 22:22:59.701 INFO  My Pitstop vendor API is running on port 3000... 
+2021-08-22 22:23:10.830 INFO  GET /api/:accountId/vehicles. Accepted connection to /api/1/vehicles 
+2021-08-22 22:23:39.818 ERROR GET /error-route: Error: route is broken! 
+2021-08-22 22:23:39.820 ERROR Error: GET /error-route: Error: route is broken!
+    at D:\My_Files\Courses\NodeJS\workspace\pitstop\app.js:100:9
+    at Layer.handle [as handle_request] (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\layer.js:95:5)
+    at D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\layer.js:95:5) 
+2021-08-22 22:23:43.115 ERROR GET /error-route: Error: route is broken! 
+2021-08-22 22:23:43.117 ERROR Error: GET /error-route: Error: route is broken!
+    at D:\My_Files\Courses\NodeJS\workspace\pitstop\app.js:100:9
+    at Layer.handle [as handle_request] (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\layer.js:95:5)
+    at D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\layer.js:95:5) 
+2021-08-22 22:23:54.119 INFO  GET /api/:accountId/vehicles. Accepted connection to /api/1/vehicles 
+2021-08-22 22:23:55.521 INFO  GET /api/:accountId/vehicles. Accepted connection to /api/1/vehicles 
+2021-08-22 22:24:06.353 INFO  GET /api/:accountId/vehicles. Accepted connection to /api/1/vehicles 
+2021-08-22 22:24:08.955 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Dodge 
+2021-08-22 22:24:08.956 INFO  POST /api/getData: sensor data for vehicle id: uuid-Dodge was found 
+2021-08-22 22:24:12.209 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Dodge 
+2021-08-22 22:24:12.209 WARN  Vendor 24 was not found! 
+2021-08-22 22:24:18.125 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Dodge 
+2021-08-22 22:24:18.125 WARN  Sensor data for vehicle: uuid-Dodge was not found! 
+2021-08-22 22:24:22.633 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Dodge 
+2021-08-22 22:24:22.633 INFO  POST /api/getData: sensor data for vehicle id: uuid-Dodge was found 
+2021-08-22 22:24:25.885 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Dodge2 
+2021-08-22 22:24:25.885 WARN  Sensor data for vehicle: uuid-Dodge2 was not found! 
+2021-08-22 22:24:31.772 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-BMW 
+2021-08-22 22:24:31.772 INFO  POST /api/getData: sensor data for vehicle id: uuid-BMW was found 
+2021-08-22 22:24:38.807 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Toyota 
+2021-08-22 22:24:38.807 INFO  POST /api/getData: sensor data for vehicle id: uuid-Toyota was found 
+2021-08-22 22:25:17.901 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Audi 
+2021-08-22 22:25:17.901 INFO  POST /api/getData: sensor data for vehicle id: uuid-Audi was found 
+2021-08-22 22:25:49.108 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Audi4 
+2021-08-22 22:25:49.108 WARN  Sensor data for vehicle: uuid-Audi4 was not found! 
+2021-08-22 22:26:07.236 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Audi 
+2021-08-22 22:26:07.236 INFO  POST /api/getData: sensor data for vehicle id: uuid-Audi was found 
+2021-08-22 22:28:03.075 INFO  My Pitstop vendor API is running on port 3000... 
+2021-08-22 22:28:07.893 ERROR GET /error-route: Error: route is broken! 
+2021-08-22 22:28:07.898 ERROR Error: GET /error-route: Error: route is broken!
+    at D:\My_Files\Courses\NodeJS\workspace\pitstop\app.js:100:9
+    at Layer.handle [as handle_request] (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\layer.js:95:5)
+    at D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\My_Files\Courses\NodeJS\workspace\pitstop\node_modules\express\lib\router\layer.js:95:5) 
+2021-08-22 22:28:17.024 INFO  GET /api/:accountId/vehicles. Accepted connection to /api/1/vehicles 
+2021-08-22 22:28:18.080 INFO  GET /api/:accountId/vehicles. Accepted connection to /api/1/vehicles 
+2021-08-22 22:28:26.271 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Audi 
+2021-08-22 22:28:26.271 INFO  POST /api/getData: sensor data for vehicle id: uuid-Audi was found 
+2021-08-22 22:28:27.096 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Audi 
+2021-08-22 22:28:27.096 INFO  POST /api/getData: sensor data for vehicle id: uuid-Audi was found 
+2021-08-22 22:28:30.297 INFO  GET /api/:accountId/vehicles. Accepted connection to /api/1/vehicles 
+2021-08-22 22:28:30.936 INFO  GET /api/:accountId/vehicles. Accepted connection to /api/1/vehicles 
+2021-08-22 22:29:16.973 INFO  GET /api/:accountId/vehicles. Accepted connection to /api/1/vehicles 
+2021-08-22 22:29:25.328 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-BMW 
+2021-08-22 22:29:25.328 INFO  POST /api/getData: sensor data for vehicle id: uuid-BMW was found 
+2021-08-22 22:29:33.950 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Bently 
+2021-08-22 22:29:33.950 WARN  Sensor data for vehicle: uuid-Bently was not found! 
+2021-08-22 22:29:48.097 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Bentley 
+2021-08-22 22:29:48.097 INFO  POST /api/getData: sensor data for vehicle id: uuid-Bentley was found 
+2021-08-22 22:29:48.737 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Bentley 
+2021-08-22 22:29:48.737 INFO  POST /api/getData: sensor data for vehicle id: uuid-Bentley was found 
+2021-08-22 22:30:02.800 INFO  POST /api/getData: Accepted connection to fetch sensor data for vehicle id: uuid-Bentley2 
+2021-08-22 22:30:02.800 WARN  Sensor data for vehicle: uuid-Bentley2 was not found! 

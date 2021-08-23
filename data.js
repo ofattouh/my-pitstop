@@ -1,14 +1,17 @@
 
 module.exports = {
 
-  // 3rd party vendors
+  //------------------------------------------------------------------------------------
+  // Mock Data
+
+  // 3rd party authorized vendors
   vendors: [
-    { accountId: 1, name: "Vendor 1" },
-    { accountId: 2, name: "Vendor 2" },
-    { accountId: 3, name: "Vendor 3" },
+    { accountId: 1, name: "Vendor #1" },
+    { accountId: 2, name: "Vendor #2" },
+    { accountId: 3, name: "Vendor #3" },
   ],
 
-  // inventory of vehicles
+  // Vehicles inventory
   vehicles: [
     { id: "uuid-Toyota", manufacturer: "Toyota", model: "2015" },
     { id: "uuid-Acura", manufacturer: "Acura", model: "2016" },
@@ -23,7 +26,7 @@ module.exports = {
     { id: "uuid-Ford", manufacturer: "Ford", model: "2021" },
   ],
 
-  // sensor data
+  // Sensor data. timestamp same value(optional)
   sensorData: [
     { id: "uuid-Toyota", type: "engine_speed_type_Toyota", value: 10, unit: "rpm", timestamp: "2019-09-07T-15:50+00" },
     { id: "uuid-Acura", type: "engine_speed_type_Acura", value: 20, unit: "rpm", timestamp: "2019-09-07T-15:50+00" },
